@@ -1,0 +1,99 @@
+
+File type: abi
+No error
+
+File type: abi-trim
+No error
+
+File type: ace
+No error
+
+File type: cif-atom
+cif-atom gives an error
+Unknown format 'cif-atom'
+
+File type: cif-seqres
+cif-seqres gives an error
+Unknown format 'cif-seqres'
+
+File type: clustal
+No error
+
+File type: embl
+No error
+
+File type: fasta
+No error
+
+File type: fasta-2line
+No error
+
+File type: fastq
+No error
+
+File type: fastq-illumina
+No error
+
+File type: fastq-sanger
+No error
+
+File type: fastq-solexa
+No error
+
+File type: gb
+No error
+
+File type: genbank
+No error
+
+File type: ig
+No error
+
+File type: imgt
+No error
+
+File type: nexus
+No error
+
+File type: pdb-atom
+pdb-atom gives an error
+0
+
+File type: pdb-seqres
+No error
+
+File type: phd
+No error
+
+File type: phylip
+No error
+
+File type: pir
+No error
+
+File type: qual
+No error
+
+File type: seqxml
+No error
+
+File type: sff
+sff gives an error
+Empty file.
+
+File type: sff-trim
+sff-trim gives an error
+Empty file.
+
+File type: stockholm
+No error
+
+File type: swiss
+No error
+
+File type: tab
+No error
+
+File type: uniprot-xml
+uniprot-xml gives an error
+no element found: line 1, column 0
