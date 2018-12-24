@@ -18,24 +18,18 @@ def use_parser(parser, filename):
 print('Python version: {}\n'
       'Biopython version: {}'.
        format(sys.version_info, Bio.__version__))
-
-sum_ = 0
-
+# print('New version: Run 23-12-18_21:15')
+# print('can not remove all rstrip() keeping it for line 2/4, 10x20, py3')
+sum_ = 0.0
 for _ in range(10):
     print('Iteration '+str(_))
-    a = timeit(
-            'use_parser(FastqGeneralIterator, "file.fastq")',
-            setup='from Bio.SeqIO.QualityIO import FastqGeneralIterator; from __main__ import use_parser',
-            number = 20)
     b = timeit(
             'use_parser(FastqStrictIterator, "file.fastq")',
             setup='from Bio.SeqIO.QualityIO import FastqStrictIterator; from __main__ import use_parser',
             number = 20)
 
-    sum_ += a
+    sum_ += b
 
-    print('Old: %.2f' % a)
     print('New: %.2f' % b)
-    print('Change: %.2f' % (a-b))
 
-print(sum_)
+print(sum_/10)
